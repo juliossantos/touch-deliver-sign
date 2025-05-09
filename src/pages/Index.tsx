@@ -2,6 +2,10 @@
 import React from 'react';
 import DeliveryConfirmation from '@/components/DeliveryConfirmation';
 
+// Import additional styling for react-pdf
+import 'react-pdf/dist/esm/Page/TextLayer.css';
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50">
